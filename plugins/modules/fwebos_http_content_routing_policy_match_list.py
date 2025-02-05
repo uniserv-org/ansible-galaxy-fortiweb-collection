@@ -120,8 +120,8 @@ def replace_key(src_dict, rep_dict):
 
 def main():
     argument_spec = dict(
-        action=dict(type='str'),
-        mkey=dict(type='str'),
+        action=dict(type=str),
+        mkey=dict(type=str),
         q_type=dict(type=str),
         id=dict(type=str),
         match_object=dict(type=str),
